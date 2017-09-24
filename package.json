@@ -1,14 +1,28 @@
 {
   "name": "wave-table-oscillators",
   "version": "1.0.0",
-  "description": "Wave tables as periodic waves or oscillators",
+  "description": "Get wave tables as periodic waves or oscillators",
   "main": "index.js",
+  "dependencies": {
+    "get-json-promise": "^1.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "test.js"
   },
-  "author": "Dennis Iversen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/wave-table-oscillators.git"
+  },
+  "keywords": [
+    "wave-table",
+    "periodic-wave",
+    "oscillator"
+  ],
+  "author": "dennis iversen",
   "license": "MIT",
-  "dependencies": {
-    "@mohayonao/wave-tables": "^0.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/diversen/wave-table-oscillators/issues"
+  },
+  "homepage": "https://github.com/diversen/wave-table-oscillators#readme"
 }
