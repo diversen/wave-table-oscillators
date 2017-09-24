@@ -1,10 +1,10 @@
 {
   "name": "wave-table-oscillators",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get wave tables as periodic waves or oscillators",
   "main": "index.js",
   "dependencies": {
-    "get-json-promise": "^1.0.0"
+    "@mohayonao/wave-tables": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
