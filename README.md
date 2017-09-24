@@ -8,6 +8,6 @@ Get above wave tables as periodic waves or oscillators
 
 ## Example and usage
 
-See [index.html](index.html)
+See [test.js](test.js)
 
 MIT © [Dennis Iversen](https://github.com/diversen)
