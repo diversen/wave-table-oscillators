@@ -1,0 +1,14 @@
+{
+  "name": "wave-table-oscillators",
+  "version": "1.0.0",
+  "description": "Wave tables as periodic waves or oscillators",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Dennis Iversen",
+  "license": "MIT",
+  "dependencies": {
+    "@mohayonao/wave-tables": "^0.2.0"
+  }
+}
