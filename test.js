@@ -4,31 +4,40 @@ const {
     getAllWaveOscillators, 
     getPeriodicWave, getWaveOscillator} = require('./index')
 
-var ctx = new (window.AudioContext || window.webkitAudioContext)();
 
-// All instrument names
-let ins = getInstrumentNames();
-console.log(ins)
+document.querySelector('#play').addEventListener("click", function () {
+    test()
+})
 
-// All periodicWaves
-let waves = getAllPeriodicWaves(ctx)
-console.log(waves)
+function test () {
 
-// All waveOscilattors
-let oscs = getAllWaveOscillators(ctx);
-console.log(oscs)
+    var ctx = new (window.AudioContext || window.webkitAudioContext)();
 
-// Single periodicWave
-let wave = getPeriodicWave(ctx, 'Bass')
-console.log(wave)
+    // All instrument names
+    let ins = getInstrumentNames();
+    console.log(ins)
 
-// Single waveOscilattors
-let osc = getWaveOscillator(ctx, 'Bass')
-console.log(osc)
+    // All periodicWaves
+    let waves = getAllPeriodicWaves(ctx)
+    console.log(waves)
 
-osc.frequency.value = 220
+    // All waveOscilattors
+    let oscs = getAllWaveOscillators(ctx);
+    console.log(oscs)
 
-osc.start(0);
-osc.stop(1)
+    // Single periodicWave
+    let wave = getPeriodicWave(ctx, 'Bass')
+    console.log(wave)
 
-osc.connect(ctx.destination);
+    // Single waveOscilattors
+    let osc = getWaveOscillator(ctx, 'Bass')
+    console.log(osc)
+
+    osc.frequency.value = 220
+
+    osc.start(0);
+    osc.stop(1)
+
+    osc.connect(ctx.destination);
+}
+
