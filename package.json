@@ -1,6 +1,6 @@
 {
   "name": "wave-table-oscillators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get wave tables as periodic waves or oscillators",
   "main": "index.js",
   "dependencies": {
